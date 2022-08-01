@@ -11,7 +11,7 @@
       $dbname = "bzt2zbszslggjs67estm";
 
       // Create MySQL connection fom PHP to MySQL server
-      $connection = new mysqli($servername, $username, $password, $database_name);
+      $connection = new mysqli($servername, $username, $password, $dbname);
 
       // Check connection
       if ($connection->connect_error) {
