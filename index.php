@@ -13,10 +13,10 @@
     <h1>Humidite de sol</h1>
     <?php
         // set connection arguments
-        $servername = "localhost";
-        $username = "abdelilah";
-        $password = "NEXTRONIC@2022";
-        $dbname = "base";
+        $servername = "bzt2zbszslggjs67estm-mysql.services.clever-cloud.com";
+        $username = "un7qd7b8eakv6nde";
+        $password = "FN5aiwXrW7ArAmeJbLrv";
+        $dbname = "bzt2zbszslggjs67estm";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
